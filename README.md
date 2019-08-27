@@ -2,12 +2,12 @@
 
 Simply filters the current selection based on the object types.
 
-(It seems there is `SelectionFilter` in Windows, but can not be found for mac)
+(It seems there is `SelectionFilter` in Windows, but can not be found for mac... [discussion]())
 
 
 ### Installation
 
-Simply double click `rhFilterSelection.rhp.macrhi`
+Download `rhFilterSelection.rhp.macrhi` from [Releases](https://github.com/mnmly/RhFilterSelection/releases/tag/0.0.1), then double click to install.
 
 ### In action.
 
