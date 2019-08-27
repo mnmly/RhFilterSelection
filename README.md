@@ -2,8 +2,7 @@
 
 Simply filters the current selection based on the object types.
 
-(It seems there is `SelectionFilter` in Windows, but can not be found for mac... [discussion]())
-
+(It seems there is `SelectionFilter` in Windows, work-in-progress for mac but...: [Rhinocerous Forum](https://discourse.mcneel.com/t/selection-filter-mac/23387/7))
 
 ### Installation
 
