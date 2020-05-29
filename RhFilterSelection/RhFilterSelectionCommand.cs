@@ -6,9 +6,9 @@ using Rhino.Input;
 using Rhino.Input.Custom;
 using Rhino.DocObjects;
 
-namespace RhSelectionFilter
+namespace mnml
 {
-    public class RhSelectionFilterCommand : Command
+    public class RhFilterSelectionCommand : Command
     {
         public override string EnglishName
         {
@@ -25,12 +25,15 @@ namespace RhSelectionFilter
                 ObjectType.Point,
                 ObjectType.Curve,
                 ObjectType.Extrusion,
-                ObjectType.Mesh,
                 ObjectType.Surface,
                 ObjectType.Brep,
+                ObjectType.Mesh,
+                ObjectType.InstanceReference,
+                ObjectType.Light,
                 ObjectType.ClipPlane,
                 ObjectType.Hatch,
                 ObjectType.Annotation,
+                ObjectType.ClipPlane,
             };
 
             string[] enumNames = Enum.GetNames(typeof(ObjectType));
@@ -82,6 +85,7 @@ namespace RhSelectionFilter
                         }
                     }
                     go.GeometryFilter = objectTypes;
+
                     continue;
                 }
 

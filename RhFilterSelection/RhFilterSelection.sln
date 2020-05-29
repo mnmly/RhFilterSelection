@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhSelectionFilter", "RhSelectionFilter\RhSelectionFilter.csproj", "{0FD51598-8ED9-49EF-9993-94096CBC5AC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhSelectionFilter", "RhSelectionFilter.csproj", "{0FD51598-8ED9-49EF-9993-94096CBC5AC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

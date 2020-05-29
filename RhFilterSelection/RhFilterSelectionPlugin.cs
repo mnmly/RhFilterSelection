@@ -1,4 +1,4 @@
-﻿namespace RhSelectionFilter
+﻿namespace mnml
 {
     ///<summary>
     /// <para>Every RhinoCommon .rhp assembly must have one and only one PlugIn-derived
@@ -8,12 +8,12 @@
     /// attributes in AssemblyInfo.cs (you might need to click "Project" ->
     /// "Show All Files" to see it in the "Solution Explorer" window).</para>
     ///</summary>
-    public class RhSelectionFilterPlugin : Rhino.PlugIns.PlugIn
+    public class RhFilterSelectionPlugin : Rhino.PlugIns.PlugIn
     {
-        ///<summary>Gets the only instance of the RhSelectionFilterPlugin plug-in.</summary>
-        public static RhSelectionFilterPlugin Instance { get; private set; }
+        ///<summary>Gets the only instance of the RhFilterSelectionPlugin plug-in.</summary>
+        public static RhFilterSelectionPlugin Instance { get; private set; }
 
-        public RhSelectionFilterPlugin()
+        public RhFilterSelectionPlugin()
         {
             Instance = this;
         }
